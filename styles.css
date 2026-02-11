@@ -1,0 +1,110 @@
+html {
+    /*background: url(https://png.pngtree.com/thumb_back/fw800/background/20231031/pngtree-stylish-coffee-cups-resting-on-a-black-textured-wallpaper-image_13763661.png); original image got down it is unavailable online */
+    background: url(/images/new-bg.webp);
+    color: aliceblue;
+    background-repeat:no-repeat;
+    background-size: auto;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: rgba(121, 108, 110, 0.15);
+    width: 55%;
+    box-shadow: 0 0 20px 0 rgba(200, 192, 192, 0.5);
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 25px;
+    min-width: 500px;
+}
+
+h1, p, footer { 
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    max-width: 400px;
+} 
+
+fieldset {
+    padding: 2em 0;
+    border: none;
+}
+
+form:last-of-type {
+    border-bottom: 1px solid slategray;
+}
+
+label {
+    display: block;
+    margin: 1em;
+}
+
+input, 
+textarea,
+select{
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+legend {
+    text-align: left;
+    margin: 10px 0 0 0;
+    display: block;
+    margin: 1em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    height: 3em;
+    width: 90%;
+    font-family: monospace;
+    font-size: 20px;
+    color: aliceblue;
+    background-color:rgba(23, 22, 22, 0.366);
+    border-color: rgba(209, 219, 227, 0.251);
+    border: solid 2px;
+}
+
+input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.407);
+}
+
+input::placeholder,
+textarea::placeholder,
+select {
+    color: red;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(59, 67, 75)
+  }
+
+  legend {
+    margin-bottom: -3em;
+  }
+
+  fieldset {
+    margin: 0 -2em 0 0;
+  }
+
+ .radio {
+    margin: -2em 0;
+ }

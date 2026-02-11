@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Coffee survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Public Survey<br/>What Coffee do you drink in Winter</h1>
+    <p id="description">Thanks you for making our small Shop<br/> more suitable for your peculiar tastes</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name">Name 
+          <input type="text" id="name" required placeholder="Your name of choice"/></label>
+        <label for="email">Email 
+          <input type="email" id="email" placeholder="Your Email" required/></label>
+        <label for="number">Age
+          <input type="number" min="13" max="120" id="number" required placeholder="Your Age"/></label>
+      </fieldset>
+      <fieldset class="radio">
+        <legend>Have you visited us before?</legend>
+        <label for="not-visited">
+          <input type="radio" id="not-visited" name="visit" value="not-visited" /> Unfortunately, no</label>
+        <label for="visited">
+          <input type="radio" id="visited" name="visit" value="visited"/> Yes, I have!</label>
+        <label for="not-visited-but">
+          <input type="radio" id="not-visited-but" value="not-visited-but" name="visit"/> No, but i want to..</label>
+      </fieldset>
+        <label>We are biased if we should include more cold options in chiller seasons, that's why we need your opinion!<br/><strong>Do you prefer warm or cold drinks in Winter?</strong>
+          <select id="dropdown">
+            <option value="">(select one option)</option>
+            <option value="Only hot">No way! I'm freezing!</option>
+            <option value="hot-cold">Sometimes I can order iced drinks when it's a minus outside</option>
+            <option value="only cold">I don't care about the weather! Give me my iced americano!</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>If you chose cold option, please check drinks you would like to see on our menu:</legend>
+        <label for="Banana Milk Coffee">
+          <input id="Banana Milk Coffe" value="Banana Milk Coffee" type="checkbox"/> Banana Milk Coffee</label>
+        <label for="Iced Caramel Macchiato">
+          <input id="Iced Caramel Macchiato" value="Iced Caramel Macchiato" type="checkbox"/> Iced Caramel Macchiato</label>
+        <label for="Vietnamese Iced Coffee">
+          <input id="Vietnamese Iced Coffee" value="Vietnamese Iced Coffee" type="checkbox"/> Vietnamese Iced Coffee</label>
+        <label for="Chocolate-y Iced Mocha">
+          <input id="Chocolate-y Iced Mocha" value="Chocolate-y Iced Mocha" type="checkbox"/> Chocolate-y Iced Mocha</label>
+        <label for="Caramel Coconut Iced Coffee">
+          <input id="Caramel Coconut Iced Coffee" value="Caramel Coconut Iced Coffee" type="checkbox"/> Caramel Coconut Iced Coffee</label>
+      <label for="Cappuccino on Ice">
+        <input id="Cappuccino on Ice" value="Cappuccino on Ice" type="checkbox"/> Cappuccino on Ice</label>
+      <label for="Creamy Ice Coffee">
+        <input id="Creamy Ice Coffee" value="Creamy Ice Coffee" type="checkbox"/> Creamy Ice Coffee</label>
+      <label for="Turmeric Iced Coffee Latte">
+        <input id="Turmeric Iced Coffee Latte" value="Turmeric Iced Coffee Latte" type="checkbox"/> Turmeric Iced Coffee Latte</label>
+        
+      <label for="Chocolate Peanut Butter Iced Coffee">
+        <input id="Chocolate Peanut Butter Iced Coffee" value="Chocolate Peanut Butter Iced Coffee" type="checkbox"/> Chocolate Peanut Butter Iced Coffee</label>
+      <label for="Mazagran">
+        <input id="Mazagran" value="Mazagran" type="checkbox"/> Mazagran</label>
+      <label for="additional-options">If you favorite drink is not on the list you can let us know down here: <textarea id="additional-options" rows="4" cols="25" placeholder="There is my Frappé..."></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+  <footer>
+    <p>Thanks for cheking my first webpage project</p>
+  </footer>
+</html>
+      <label for="Ch
