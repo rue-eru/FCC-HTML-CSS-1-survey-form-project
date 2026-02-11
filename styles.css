@@ -1,6 +1,6 @@
 html {
     /*background: url(https://png.pngtree.com/thumb_back/fw800/background/20231031/pngtree-stylish-coffee-cups-resting-on-a-black-textured-wallpaper-image_13763661.png); original image got down it is unavailable online */
-    background: url(/images/new-bg.webp);
+    background-image: url('./images/new-bg.webp');
     color: aliceblue;
     background-repeat:no-repeat;
     background-size: auto;
