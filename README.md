@@ -6,9 +6,9 @@ An old project build back in 2024 as the start of my journey and posted here to 
 
 The project only consists of **HTML** + **CSS** and was made as a part of FreeCodeCamp's Responsive Web Design course.
 
->[My official FCC's Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/responsive-web-design)
-
-![Certificate](./images/responsive-web-design.png)
+| [My official FCC's Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/responsive-web-design) |
+|---|
+| ![Certificate](./images/responsive-web-design.png) |
 
 ---
 
